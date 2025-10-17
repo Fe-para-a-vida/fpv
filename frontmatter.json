@@ -1,0 +1,95 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.git.enabled": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/site/archetypes"
+    },
+    {
+      "title": "assets",
+      "path": "[[workspace]]/site/assets"
+    },
+    {
+      "title": "config",
+      "path": "[[workspace]]/site/config"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/site/content"
+    },
+    {
+      "title": "data",
+      "path": "[[workspace]]/site/data"
+    },
+    {
+      "title": "i18n",
+      "path": "[[workspace]]/site/i18n"
+    },
+    {
+      "title": "layouts",
+      "path": "[[workspace]]/site/layouts"
+    },
+    {
+      "title": "public",
+      "path": "[[workspace]]/site/public"
+    },
+    {
+      "title": "static",
+      "path": "[[workspace]]/site/static"
+    },
+    {
+      "title": "themes",
+      "path": "[[workspace]]/site/themes"
+    }
+  ]
+}
